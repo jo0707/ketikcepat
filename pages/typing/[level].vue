@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full text-center p-4">
+  <div data-aos="fade-left" class="h-full text-center p-4">
     <UCard class="h-full bg-black/30 backdrop-blur" :ui="{ body: { base: 'h-full' } }">
       <div class="h-full flex flex-col">
         <div>
@@ -8,8 +8,8 @@
         <main class="grow flex place-items-center place-content-center">
           <span v-for="letter, i in currentWord.english"
             :class="{ 'text-teal-300': currentLetterIndex > i, 'text-red-400': isWrong && currentLetterIndex == i, 'text-gray-200': currentLetterIndex <= i, 'font-mono text-4xl': true }">{{
-      letter
-    }}</span>
+            letter
+            }}</span>
           <UButton class="ml-2" icon="i-heroicons-speaker-wave"
             :color="typingStore.currentSpeech.isPlaying ? 'primary' : 'gray'" variant="ghost"
             @click="typingStore.currentSpeech.speak()" />

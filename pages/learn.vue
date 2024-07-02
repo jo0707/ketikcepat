@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full text-center p-4">
+  <div data-aos="fade-left" class="h-full text-center p-4">
     <UCard class="h-full bg-black/30 backdrop-blur" :ui="{ body: { base: 'h-full' } }">
       <div class="h-full flex flex-col">
         <div>
@@ -8,8 +8,8 @@
         <main class="grow flex gap-2 place-items-center place-content-center">
           <span v-for="letter, i in currentWord.english"
             :class="{ 'text-teal-300': currentLetterIndex > i, 'text-gray-200': currentLetterIndex <= i, 'bg-white/50 rounded w-4 h-4': letter == ' ' && currentLetterIndex <= i, 'bg-teal-400 rounded w-4 h-4': letter == ' ' && currentLetterIndex > i, 'font-mono text-4xl': true }">{{
-      letter
-    }}</span>
+            letter
+            }}</span>
         </main>
 
 

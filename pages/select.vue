@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full p-4">
+  <div data-aos="fade-left" class="h-full p-4">
     <UCard class="h-full bg-black/20 backdrop-blur-sm">
       <h2 class="text-white text-2xl font-bold">Pilih Tingkatan</h2>
       <ul class="mt-4 flex flex-col gap-8">

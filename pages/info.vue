@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-full bg-[url('/img/background_3.svg')] bg-cover bg-right p-4 text-white">
+  <div data-aos="fade-left" class="w-full h-full bg-[url('/img/background_3.svg')] bg-cover bg-right p-4 text-white">
     <UCard class="bg-black/20 backdrop-blur-sm w-full h-full">
       <h2>Informasi Ketik</h2>
       <p>Informasi tentang ketik</p>
@@ -14,13 +14,13 @@
           <div class="flex flex-col h-full place-content-between">
             <UButton :to="`/article/${ar.mdfile}`" variant="link"
               class="text-sm line-clamp-1 text-ellipsis text-black text-nowrap">{{
-          ar.title
-        }}
+              ar.title
+              }}
             </UButton>
             <UButton :to="`/article/${ar.mdfile}`" variant="link" color="red" class="text-xs"
               icon="i-heroicons-user-circle-solid">{{
-          ar.author
-        }}</UButton>
+              ar.author
+              }}</UButton>
           </div>
         </UCard>
       </section>
@@ -38,8 +38,8 @@
           <div class="flex flex-col h-full place-content-between">
             <UButton target="_blank" :to="video.url" variant="link"
               class="text-sm line-clamp-1 text-ellipsis text-black text-nowrap">{{
-          video.title
-        }}
+              video.title
+              }}
             </UButton>
             <UButton target="_blank" :to="video.url" variant="link" color="red" class="text-xs"
               icon="i-heroicons-user-circle-solid">{{

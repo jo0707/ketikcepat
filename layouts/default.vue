@@ -3,7 +3,7 @@
     <nav data-aos="fade-in" class="h-full p-4">
       <UCard class="rounded-lg h-fit bg-white/50 backdrop-blur">
         <div class="flex md:flex-col gap-8">
-          <UPopover v-for="nav in navigation" mode="hover" :popper="{ placement: 'top', strategy: 'absolute' }">
+          <UPopover v-for="nav, i in navigation" mode="hover" :popper="{ placement: 'top', strategy: 'absolute' }">
             <UButton class="" size="xl" variant="soft" :icon="nav.icon" :to="nav.to" />
             <template #panel>
               <p class="w-full text-sm text-nowrap p-2">{{ nav.text }}</p>

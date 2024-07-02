@@ -1,5 +1,5 @@
 <template>
-    <div data-aos="fade-left" class="h-full prose-sm overflow-y-auto text-white">
+    <div data-aos="fade-in" class="h-full prose-sm overflow-y-auto text-white">
         <UCard class="m-4 backdrop-blur bg-black/30">
             <NuxtImg class="rounded-lg h-48 w-96 object-cover" :src="`/img/${slug}.png`" alt="background" />
             <div class="flex flex-col">
@@ -19,4 +19,13 @@ const slug = route.params.slug as string
 
 const { data: content, error } = useFetch<string>("/md/" + slug + ".md", { server: false })
 const article = articles.filter((a) => a.mdfile == slug)[0]
+
+useHead({
+    title: article.title,
+    meta: [
+        { name: 'description', content: article.description },
+        { name: 'author', content: article.author },
+        { name: 'keywords', content: article.title },
+    ]
+})
 </script>

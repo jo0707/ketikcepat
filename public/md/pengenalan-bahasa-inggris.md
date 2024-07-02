@@ -70,11 +70,3 @@ Memahami dan menggunakan frasa serta ungkapan umum dapat membantu dalam percakap
 
 Dengan memahami dasar-dasar ini dan berlatih secara konsisten, Anda akan semakin percaya diri dan mahir dalam berbahasa Inggris. Selamat belajar!
 """
-
-# Save the content to a markdown file
-
-file_path = "/mnt/data/Artikel_Pengenalan_Bahasa_Inggris.md"
-with open(file_path, "w") as file:
-file.write(content)
-
-file_path

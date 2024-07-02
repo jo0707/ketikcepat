@@ -1,15 +1,22 @@
-import { NuxtLayout } from '#build/components';
 <template>
   <div class="font-[Poppins] antialiased">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
+
+    <UNotifications />
   </div>
 </template>
 
 <script lang="ts" setup>
-
-
+useHead({
+  meta: [
+    {
+      name: 'dicoding:email',
+      content: 'josua123690707@gmail.com'
+    }
+  ]
+})
 </script>
 
 <style>

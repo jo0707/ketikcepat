@@ -1,5 +1,5 @@
 <template>
-  <div data-aos="fade-left" class="h-full text-center p-4">
+  <div data-aos="fade-in" class="h-full text-center p-4">
     <UCard class="h-full bg-black/30 backdrop-blur" :ui="{ body: { base: 'h-full' } }">
       <div class="h-full flex flex-col">
         <div>
@@ -8,8 +8,8 @@
         <main class="grow flex place-items-center place-content-center">
           <span v-for="letter, i in currentWord.english"
             :class="{ 'text-teal-300': currentLetterIndex > i, 'text-red-400': isWrong && currentLetterIndex == i, 'text-gray-200': currentLetterIndex <= i, 'font-mono text-4xl': true }">{{
-            letter
-            }}</span>
+      letter
+    }}</span>
           <UButton class="ml-2" icon="i-heroicons-speaker-wave"
             :color="typingStore.currentSpeech.isPlaying ? 'primary' : 'gray'" variant="ghost"
             @click="typingStore.currentSpeech.speak()" />
@@ -36,7 +36,7 @@
           <UCard class="w-fit mx-auto bg-white/80 backdrop-blur">
             <div class="flex gap-8">
               <div>
-                <p class="text-xs text-gray-400">Karatker</p>
+                <p class="text-xs text-gray-400">Karakter</p>
                 <p class="text-gray-600 font-bold font-mono ">{{ totalStroke }}</p>
               </div>
               <div>
@@ -44,7 +44,7 @@
                 <p class="text-gray-600 font-bold font-mono ">{{ elapsedTimeText }}</p>
               </div>
               <div>
-                <p class=" text-xs text-gray-400">WPM</p>
+                <p class=" text-xs text-gray-400">KPM</p>
                 <p class="text-gray-800 font-bold font-mono text-xl">{{ wpm }}</p>
               </div>
               <div>
@@ -72,14 +72,17 @@
     </UCard>
 
     <UModal v-model="isCompleteOpen">
-      <div class="flex flex-col gap-4">
-        <h1 class="text-2xl font-bold">Selesai</h1>
-        <p>Waktu: {{ elapsedTimeText }}</p>
-        <p>KPM: {{ wpm }}</p>
-        <p>Akurasi: {{ accuracy }}%</p>
-        <p>Karakter: {{ totalStroke }}</p>
-        <p>Kata: {{ totalWord }} / {{ wordPairs.length - 1 }}</p>
-      </div>
+      <UCard class=" bg-gradient-to-br from-teal-300 to-teal-500 backdrop-blur text-center text-sm">
+        <div class="flex flex-col gap-2">
+          <h1 class="text-xl mb-4">Kamu Berhasil!</h1>
+          <p>Waktu: {{ elapsedTimeText }}</p>
+          <p>Kata per-Menit: {{ wpm }}</p>
+          <p>Akurasi: {{ accuracy }}%</p>
+          <p>Karakter: {{ totalStroke }}</p>
+          <p>Kata: {{ totalWord }}</p>
+          <p class="mt-4">Selamat karena telah menyelesaikan level ini! Kamu bisa lanjut ke level berikutnya...</p>
+        </div>
+      </UCard>
     </UModal>
   </div>
 </template>
@@ -87,8 +90,11 @@
 <script lang="ts" setup>
 import { useTypingStore } from '~/store/typingStore';
 import { useWpmStore } from '~/store/wpmStore';
-import type { Word } from '~/types/word';
+import JSConfetti from 'js-confetti'
+import { playBeep, playDing, playKey } from '~/utils/sounds';
 
+
+let jsConfetti: JSConfetti | null = null
 const typingStore = useTypingStore()
 const wpmStore = useWpmStore()
 
@@ -125,6 +131,7 @@ const {
 const isCompleteOpen = ref(false)
 
 onMounted(async () => {
+  jsConfetti = new JSConfetti()
   await typingStore.fetchWords(level)
   wpmStore.reset()
 })
@@ -141,22 +148,38 @@ onKeyStroke(true, (e) => {
   const isCorrect = e.key === currentWord.value.english[currentLetterIndex.value]
 
   wpmStore.onLetterStroke(e.key, isCorrect)
+  playKey()
 
   if (isCorrect) {
     currentLetterIndex.value++
   } else {
     isWrong.value = true
+    playBeep()
   }
 
   // word complete
   if (currentLetterIndex.value === currentWord.value.english.length) {
+    // level complete
     if (currentWordIndex.value === wordPairs.value.length - 1) {
+      if (jsConfetti) jsConfetti.addConfetti()
       isCompleteOpen.value = true
       wpmStore.stop()
+      setLevelStatus(parseInt(level) - 1, true)
     } else {
       currentWordIndex.value++
     }
     wpmStore.onWordComplete()
+    playDing()
   }
 }, { dedupe: true })
+
+useHead({
+  title: `Level ${level}`,
+  meta: [
+    {
+      name: 'description',
+      content: 'Latihan ketik kosakata bahasa Inggris.'
+    }
+  ]
+})
 </script>

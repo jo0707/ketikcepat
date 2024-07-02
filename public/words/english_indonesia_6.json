@@ -1,0 +1,122 @@
+[
+    {
+        "english": "adventure",
+        "indonesia": "petualangan",
+        "definisi": "pengalaman yang menarik atau tidak biasa, sering kali berisiko",
+        "sentence": "Mereka pergi berpetualang di hutan."
+    },
+    {
+        "english": "ambition",
+        "indonesia": "ambisi",
+        "definisi": "keinginan kuat untuk mencapai sesuatu",
+        "sentence": "Ambisinya adalah menjadi dokter terkenal."
+    },
+    {
+        "english": "ancient",
+        "indonesia": "kuno",
+        "definisi": "sangat tua atau berasal dari masa lalu yang sangat lama",
+        "sentence": "Kuil itu dibangun pada zaman kuno."
+    },
+    {
+        "english": "apology",
+        "indonesia": "permintaan maaf",
+        "definisi": "ungkapan penyesalan atas kesalahan yang telah dilakukan",
+        "sentence": "Dia mengirimkan surat permintaan maaf."
+    },
+    {
+        "english": "architecture",
+        "indonesia": "arsitektur",
+        "definisi": "seni atau praktik merancang dan membangun bangunan",
+        "sentence": "Arsitektur kota ini sangat mengesankan."
+    },
+    {
+        "english": "atmosphere",
+        "indonesia": "atmosfer",
+        "definisi": "lapisan gas yang mengelilingi bumi atau planet lain",
+        "sentence": "Atmosfer bumi terdiri dari berbagai gas."
+    },
+    {
+        "english": "balance",
+        "indonesia": "keseimbangan",
+        "definisi": "keadaan stabil atau seimbang",
+        "sentence": "Dia kehilangan keseimbangan dan terjatuh."
+    },
+    {
+        "english": "behavior",
+        "indonesia": "perilaku",
+        "definisi": "cara seseorang bertindak atau bereaksi terhadap lingkungan",
+        "sentence": "Perilakunya sangat sopan dan ramah."
+    },
+    {
+        "english": "capacity",
+        "indonesia": "kapasitas",
+        "definisi": "kemampuan untuk menampung atau melakukan sesuatu",
+        "sentence": "Kapasitas ruangan ini adalah 100 orang."
+    },
+    {
+        "english": "celebration",
+        "indonesia": "perayaan",
+        "definisi": "acara atau kegiatan untuk merayakan sesuatu",
+        "sentence": "Mereka mengadakan perayaan ulang tahun."
+    },
+    {
+        "english": "competition",
+        "indonesia": "kompetisi",
+        "definisi": "acara di mana orang bersaing untuk memenangkan sesuatu",
+        "sentence": "Dia mengikuti kompetisi lari."
+    },
+    {
+        "english": "compromise",
+        "indonesia": "kompromi",
+        "definisi": "kesepakatan di mana kedua belah pihak memberikan sesuatu",
+        "sentence": "Mereka mencapai kompromi setelah berdiskusi panjang."
+    },
+    {
+        "english": "conclusion",
+        "indonesia": "kesimpulan",
+        "definisi": "pendapat atau keputusan akhir berdasarkan bukti atau argumen",
+        "sentence": "Kesimpulannya adalah penelitian tersebut berhasil."
+    },
+    {
+        "english": "confidence",
+        "indonesia": "kepercayaan diri",
+        "definisi": "kepercayaan pada kemampuan atau kualitas diri sendiri",
+        "sentence": "Dia berbicara dengan penuh kepercayaan diri."
+    },
+    {
+        "english": "connection",
+        "indonesia": "hubungan",
+        "definisi": "kaitan atau hubungan antara dua atau lebih hal",
+        "sentence": "Ada hubungan antara diet dan kesehatan."
+    },
+    {
+        "english": "consequence",
+        "indonesia": "konsekuensi",
+        "definisi": "hasil atau akibat dari suatu tindakan",
+        "sentence": "Konsekuensi dari tindakannya sangat serius."
+    },
+    {
+        "english": "curiosity",
+        "indonesia": "rasa ingin tahu",
+        "definisi": "keinginan untuk mengetahui atau belajar sesuatu",
+        "sentence": "Rasa ingin tahunya membawanya ke petualangan baru."
+    },
+    {
+        "english": "debate",
+        "indonesia": "debat",
+        "definisi": "diskusi formal tentang suatu topik di mana pihak-pihak yang berbeda memberikan argumen",
+        "sentence": "Mereka mengadakan debat tentang isu lingkungan."
+    },
+    {
+        "english": "decision",
+        "indonesia": "keputusan",
+        "definisi": "pilihan atau penetapan yang dibuat setelah pertimbangan",
+        "sentence": "Keputusan tersebut sangat penting untuk masa depan perusahaan."
+    },
+    {
+        "english": "discovery",
+        "indonesia": "penemuan",
+        "definisi": "tindakan menemukan atau mengetahui sesuatu yang baru",
+        "sentence": "Penemuan tersebut mengubah dunia sains."
+    }
+]

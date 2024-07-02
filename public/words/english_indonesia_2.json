@@ -1,0 +1,122 @@
+[
+    {
+        "english": "apple",
+        "indonesia": "apel",
+        "definisi": "buah bulat dengan kulit merah atau hijau dan bagian dalam yang berwarna putih",
+        "sentence": "Dia makan sebuah apel untuk makan siang."
+    },
+    {
+        "english": "book",
+        "indonesia": "buku",
+        "definisi": "sekumpulan halaman tertulis atau tercetak, biasanya terikat dengan sampul",
+        "sentence": "Saya meminjam sebuah buku dari perpustakaan."
+    },
+    {
+        "english": "cat",
+        "indonesia": "kucing",
+        "definisi": "hewan kecil berbulu yang sering dipelihara sebagai hewan peliharaan",
+        "sentence": "Kucing itu tidur di atas sofa."
+    },
+    {
+        "english": "dog",
+        "indonesia": "anjing",
+        "definisi": "hewan peliharaan yang setia dan sering dianggap sebagai sahabat manusia",
+        "sentence": "Anjing itu berlari di taman."
+    },
+    {
+        "english": "car",
+        "indonesia": "mobil",
+        "definisi": "kendaraan bermotor dengan roda empat yang digunakan untuk transportasi",
+        "sentence": "Ayahku mengendarai mobil ke kantor."
+    },
+    {
+        "english": "water",
+        "indonesia": "air",
+        "definisi": "cairan bening yang diperlukan oleh semua makhluk hidup untuk bertahan hidup",
+        "sentence": "Kita harus minum delapan gelas air setiap hari."
+    },
+    {
+        "english": "house",
+        "indonesia": "rumah",
+        "definisi": "bangunan tempat tinggal yang biasanya memiliki kamar tidur, ruang tamu, dapur, dan kamar mandi",
+        "sentence": "Keluarga mereka tinggal di sebuah rumah besar di pinggir kota."
+    },
+    {
+        "english": "school",
+        "indonesia": "sekolah",
+        "definisi": "tempat di mana anak-anak dan remaja belajar berbagai pelajaran",
+        "sentence": "Adikku berangkat ke sekolah setiap pagi."
+    },
+    {
+        "english": "food",
+        "indonesia": "makanan",
+        "definisi": "sesuatu yang dimakan untuk memberikan energi dan nutrisi bagi tubuh",
+        "sentence": "Ibu memasak makanan yang lezat untuk makan malam."
+    },
+    {
+        "english": "happy",
+        "indonesia": "bahagia",
+        "definisi": "perasaan senang atau gembira",
+        "sentence": "Dia merasa sangat bahagia saat ulang tahunnya."
+    },
+    {
+        "english": "tree",
+        "indonesia": "pohon",
+        "definisi": "tanaman besar dengan batang kayu yang keras dan cabang-cabang yang mengandung daun",
+        "sentence": "Anak-anak bermain di bawah pohon besar di taman."
+    },
+    {
+        "english": "friend",
+        "indonesia": "teman",
+        "definisi": "seseorang yang dikenal dan disukai, biasanya karena memiliki minat atau latar belakang yang sama",
+        "sentence": "Dia menghabiskan waktu bersama teman-temannya di akhir pekan."
+    },
+    {
+        "english": "sun",
+        "indonesia": "matahari",
+        "definisi": "bintang di pusat tata surya yang memberikan cahaya dan panas ke bumi",
+        "sentence": "Matahari terbit dari timur dan terbenam di barat."
+    },
+    {
+        "english": "rain",
+        "indonesia": "hujan",
+        "definisi": "cairan yang turun dari awan dalam bentuk tetesan",
+        "sentence": "Mereka membawa payung karena cuaca sedang hujan."
+    },
+    {
+        "english": "bird",
+        "indonesia": "burung",
+        "definisi": "hewan yang memiliki sayap dan biasanya bisa terbang",
+        "sentence": "Burung-burung berkicau di pagi hari."
+    },
+    {
+        "english": "milk",
+        "indonesia": "susu",
+        "definisi": "cairan putih yang dihasilkan oleh sapi betina dan biasanya diminum atau digunakan dalam memasak",
+        "sentence": "Dia minum segelas susu setiap pagi."
+    },
+    {
+        "english": "flower",
+        "indonesia": "bunga",
+        "definisi": "bagian dari tanaman yang berwarna-warni dan sering memiliki aroma harum",
+        "sentence": "Dia memberi ibunya buket bunga untuk hari ibu."
+    },
+    {
+        "english": "bike",
+        "indonesia": "sepeda",
+        "definisi": "kendaraan dengan dua roda yang digerakkan dengan mengayuh",
+        "sentence": "Anak itu belajar mengendarai sepeda di halaman."
+    },
+    {
+        "english": "city",
+        "indonesia": "kota",
+        "definisi": "tempat dengan banyak bangunan dan penduduk, lebih besar dari desa",
+        "sentence": "Mereka tinggal di sebuah apartemen di pusat kota."
+    },
+    {
+        "english": "family",
+        "indonesia": "keluarga",
+        "definisi": "sekumpulan orang yang terkait oleh darah, perkawinan, atau adopsi",
+        "sentence": "Setiap akhir pekan, mereka berkumpul bersama keluarga besar."
+    }
+]

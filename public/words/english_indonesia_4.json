@@ -1,0 +1,122 @@
+[
+    {
+        "english": "bread",
+        "indonesia": "roti",
+        "definisi": "makanan yang dibuat dari adonan tepung yang dipanggang",
+        "sentence": "Dia sarapan roti setiap pagi."
+    },
+    {
+        "english": "cheese",
+        "indonesia": "keju",
+        "definisi": "makanan yang dibuat dari susu yang difermentasi",
+        "sentence": "Dia menambahkan keju pada sandwich-nya."
+    },
+    {
+        "english": "butter",
+        "indonesia": "mentega",
+        "definisi": "produk susu yang dibuat dengan mengocok krim atau susu",
+        "sentence": "Dia mengoleskan mentega pada roti bakar."
+    },
+    {
+        "english": "egg",
+        "indonesia": "telur",
+        "definisi": "produk hewani yang dihasilkan oleh burung, terutama ayam",
+        "sentence": "Dia memasak telur untuk sarapan."
+    },
+    {
+        "english": "coffee",
+        "indonesia": "kopi",
+        "definisi": "minuman yang dibuat dari biji kopi yang diseduh",
+        "sentence": "Dia minum secangkir kopi setiap pagi."
+    },
+    {
+        "english": "tea",
+        "indonesia": "teh",
+        "definisi": "minuman yang dibuat dengan menyeduh daun teh",
+        "sentence": "Dia suka minum teh di sore hari."
+    },
+    {
+        "english": "juice",
+        "indonesia": "jus",
+        "definisi": "minuman yang dibuat dari sari buah",
+        "sentence": "Dia minum jus jeruk setiap pagi."
+    },
+    {
+        "english": "soup",
+        "indonesia": "sup",
+        "definisi": "makanan cair yang biasanya dibuat dengan merebus daging, sayuran, atau bahan lain",
+        "sentence": "Dia makan sup ayam untuk makan siang."
+    },
+    {
+        "english": "rice",
+        "indonesia": "nasi",
+        "definisi": "biji-bijian yang dimasak dan biasanya dimakan sebagai makanan pokok",
+        "sentence": "Mereka makan nasi dengan lauk pauk."
+    },
+    {
+        "english": "chicken",
+        "indonesia": "ayam",
+        "definisi": "unggas yang biasa dipelihara untuk diambil daging dan telurnya",
+        "sentence": "Dia memanggang ayam untuk makan malam."
+    },
+    {
+        "english": "beef",
+        "indonesia": "daging sapi",
+        "definisi": "daging yang berasal dari sapi",
+        "sentence": "Mereka memasak daging sapi untuk pesta."
+    },
+    {
+        "english": "fish",
+        "indonesia": "ikan",
+        "definisi": "hewan air yang biasanya hidup di sungai, danau, atau laut",
+        "sentence": "Mereka memasak ikan bakar di tepi pantai."
+    },
+    {
+        "english": "carrot",
+        "indonesia": "wortel",
+        "definisi": "sayuran akar yang biasanya berwarna oranye",
+        "sentence": "Dia memotong wortel untuk sup."
+    },
+    {
+        "english": "potato",
+        "indonesia": "kentang",
+        "definisi": "sayuran umbi yang sering digunakan sebagai bahan makanan",
+        "sentence": "Dia membuat kentang goreng untuk makan malam."
+    },
+    {
+        "english": "tomato",
+        "indonesia": "tomat",
+        "definisi": "buah yang biasanya berwarna merah dan sering digunakan dalam masakan",
+        "sentence": "Dia menambahkan tomat pada salad."
+    },
+    {
+        "english": "cucumber",
+        "indonesia": "mentimun",
+        "definisi": "sayuran panjang yang berkulit hijau dan berair",
+        "sentence": "Dia membuat acar mentimun untuk makan siang."
+    },
+    {
+        "english": "lettuce",
+        "indonesia": "selada",
+        "definisi": "sayuran berdaun hijau yang sering digunakan dalam salad",
+        "sentence": "Dia membuat salad selada untuk makan malam."
+    },
+    {
+        "english": "orange",
+        "indonesia": "jeruk",
+        "definisi": "buah yang berwarna oranye dan memiliki rasa asam-manis",
+        "sentence": "Dia memakan jeruk setelah makan siang."
+    },
+    {
+        "english": "banana",
+        "indonesia": "pisang",
+        "definisi": "buah panjang yang berkulit kuning dan berdaging lembut",
+        "sentence": "Dia membawa pisang sebagai camilan."
+    },
+    {
+        "english": "apple",
+        "indonesia": "apel",
+        "definisi": "buah bulat dengan kulit merah atau hijau dan bagian dalam yang berwarna putih",
+        "sentence": "Dia makan sebuah apel untuk makan siang."
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "english": "pen",
+        "indonesia": "pena",
+        "definisi": "alat tulis yang menggunakan tinta",
+        "sentence": "Dia menulis surat dengan pena."
+    },
+    {
+        "english": "paper",
+        "indonesia": "kertas",
+        "definisi": "lembaran tipis yang digunakan untuk menulis atau mencetak",
+        "sentence": "Dia menggambar di atas kertas."
+    },
+    {
+        "english": "window",
+        "indonesia": "jendela",
+        "definisi": "bagian dari dinding bangunan yang terbuat dari kaca untuk melihat ke luar",
+        "sentence": "Dia melihat ke luar jendela."
+    },
+    {
+        "english": "shoes",
+        "indonesia": "sepatu",
+        "definisi": "alas kaki yang menutupi kaki hingga pergelangan",
+        "sentence": "Dia memakai sepatu baru ke sekolah."
+    },
+    {
+        "english": "hat",
+        "indonesia": "topi",
+        "definisi": "penutup kepala yang biasanya digunakan untuk melindungi dari matahari atau sebagai aksesori",
+        "sentence": "Dia memakai topi untuk melindungi dirinya dari matahari."
+    },
+    {
+        "english": "ball",
+        "indonesia": "bola",
+        "definisi": "benda bulat yang digunakan dalam berbagai permainan dan olahraga",
+        "sentence": "Anak-anak bermain bola di taman."
+    },
+    {
+        "english": "clock",
+        "indonesia": "jam",
+        "definisi": "alat untuk menunjukkan waktu",
+        "sentence": "Dia melihat jam untuk memeriksa waktu."
+    },
+    {
+        "english": "garden",
+        "indonesia": "kebun",
+        "definisi": "area yang ditanami tanaman hias atau sayuran",
+        "sentence": "Dia menanam bunga di kebun."
+    },
+    {
+        "english": "fish",
+        "indonesia": "ikan",
+        "definisi": "hewan air yang biasanya hidup di sungai, danau, atau laut",
+        "sentence": "Mereka memancing ikan di danau."
+    },
+    {
+        "english": "star",
+        "indonesia": "bintang",
+        "definisi": "objek bercahaya di langit yang tampak pada malam hari",
+        "sentence": "Dia suka melihat bintang di malam hari."
+    },
+    {
+        "english": "river",
+        "indonesia": "sungai",
+        "definisi": "aliran air yang besar dan mengalir terus-menerus menuju laut",
+        "sentence": "Mereka berjalan-jalan di sepanjang sungai."
+    },
+    {
+        "english": "mountain",
+        "indonesia": "gunung",
+        "definisi": "tanah yang menjulang tinggi dengan puncak yang tinggi",
+        "sentence": "Mereka mendaki gunung setiap akhir pekan."
+    },
+    {
+        "english": "ocean",
+        "indonesia": "laut",
+        "definisi": "badan air asin yang sangat luas",
+        "sentence": "Mereka pergi berlibur ke tepi laut."
+    },
+    {
+        "english": "forest",
+        "indonesia": "hutan",
+        "definisi": "area luas yang ditumbuhi pohon dan tanaman lainnya",
+        "sentence": "Mereka menjelajahi hutan untuk melihat satwa liar."
+    },
+    {
+        "english": "island",
+        "indonesia": "pulau",
+        "definisi": "daratan yang dikelilingi oleh air",
+        "sentence": "Mereka tinggal di sebuah pulau kecil."
+    },
+    {
+        "english": "train",
+        "indonesia": "kereta api",
+        "definisi": "alat transportasi yang berjalan di atas rel",
+        "sentence": "Dia pergi ke kota dengan kereta api."
+    },
+    {
+        "english": "bus",
+        "indonesia": "bis",
+        "definisi": "kendaraan besar yang mengangkut banyak penumpang",
+        "sentence": "Dia naik bis ke sekolah setiap hari."
+    },
+    {
+        "english": "airplane",
+        "indonesia": "pesawat terbang",
+        "definisi": "kendaraan udara yang memiliki sayap dan mesin untuk terbang",
+        "sentence": "Mereka terbang ke Bali dengan pesawat terbang."
+    },
+    {
+        "english": "bicycle",
+        "indonesia": "sepeda",
+        "definisi": "kendaraan dengan dua roda yang digerakkan dengan mengayuh",
+        "sentence": "Anak itu belajar mengendarai sepeda di halaman."
+    },
+    {
+        "english": "lamp",
+        "indonesia": "lampu",
+        "definisi": "alat yang menghasilkan cahaya",
+        "sentence": "Dia menyalakan lampu saat malam tiba."
+    }
+]

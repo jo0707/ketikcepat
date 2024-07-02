@@ -1,0 +1,122 @@
+[
+    {
+        "english": "shirt",
+        "indonesia": "kemeja",
+        "definisi": "pakaian bagian atas yang memiliki kerah dan kancing",
+        "sentence": "Dia memakai kemeja putih untuk bekerja."
+    },
+    {
+        "english": "pants",
+        "indonesia": "celana panjang",
+        "definisi": "pakaian yang menutupi bagian bawah tubuh dari pinggang hingga pergelangan kaki",
+        "sentence": "Dia mengenakan celana panjang hitam ke pesta."
+    },
+    {
+        "english": "dress",
+        "indonesia": "gaun",
+        "definisi": "pakaian wanita yang panjangnya bervariasi dari pendek hingga panjang",
+        "sentence": "Dia mengenakan gaun merah pada pesta ulang tahun."
+    },
+    {
+        "english": "skirt",
+        "indonesia": "rok",
+        "definisi": "pakaian wanita yang menutupi bagian bawah tubuh dan biasanya menggantung dari pinggang",
+        "sentence": "Dia memakai rok biru ke kantor."
+    },
+    {
+        "english": "socks",
+        "indonesia": "kaus kaki",
+        "definisi": "pakaian yang dikenakan pada kaki untuk melindungi dari dingin atau gesekan",
+        "sentence": "Dia mengenakan kaus kaki sebelum memakai sepatu."
+    },
+    {
+        "english": "jacket",
+        "indonesia": "jaket",
+        "definisi": "pakaian luar yang biasanya memiliki lengan panjang dan digunakan untuk melindungi dari cuaca dingin",
+        "sentence": "Dia memakai jaket tebal saat musim dingin."
+    },
+    {
+        "english": "sweater",
+        "indonesia": "sweter",
+        "definisi": "pakaian rajutan yang dikenakan di bagian atas tubuh untuk memberikan kehangatan",
+        "sentence": "Dia mengenakan sweter di pagi hari yang dingin."
+    },
+    {
+        "english": "scarf",
+        "indonesia": "syal",
+        "definisi": "kain panjang yang dililitkan di leher atau kepala untuk kehangatan atau gaya",
+        "sentence": "Dia memakai syal untuk melindungi lehernya dari angin."
+    },
+    {
+        "english": "gloves",
+        "indonesia": "sarung tangan",
+        "definisi": "pakaian yang menutupi tangan untuk melindungi dari dingin atau cedera",
+        "sentence": "Dia memakai sarung tangan saat bermain salju."
+    },
+    {
+        "english": "belt",
+        "indonesia": "sabuk",
+        "definisi": "pita atau tali yang dikenakan di pinggang untuk menahan celana atau rok",
+        "sentence": "Dia memakai sabuk kulit dengan celana panjangnya."
+    },
+    {
+        "english": "hat",
+        "indonesia": "topi",
+        "definisi": "penutup kepala yang biasanya digunakan untuk melindungi dari matahari atau sebagai aksesori",
+        "sentence": "Dia memakai topi saat berjalan di bawah terik matahari."
+    },
+    {
+        "english": "watch",
+        "indonesia": "jam tangan",
+        "definisi": "alat untuk menunjukkan waktu yang dikenakan di pergelangan tangan",
+        "sentence": "Dia melihat jam tangan untuk memeriksa waktu."
+    },
+    {
+        "english": "ring",
+        "indonesia": "cincin",
+        "definisi": "perhiasan melingkar yang dikenakan pada jari",
+        "sentence": "Dia memakai cincin emas di jari manisnya."
+    },
+    {
+        "english": "necklace",
+        "indonesia": "kalung",
+        "definisi": "perhiasan yang dikenakan di leher",
+        "sentence": "Dia menerima kalung berlian sebagai hadiah."
+    },
+    {
+        "english": "bracelet",
+        "indonesia": "gelang",
+        "definisi": "perhiasan yang dikenakan di pergelangan tangan",
+        "sentence": "Dia mengenakan gelang emas di pergelangan tangannya."
+    },
+    {
+        "english": "earring",
+        "indonesia": "anting",
+        "definisi": "perhiasan yang dikenakan di telinga",
+        "sentence": "Dia memakai anting mutiara untuk acara resmi."
+    },
+    {
+        "english": "sunglasses",
+        "indonesia": "kacamata hitam",
+        "definisi": "kacamata dengan lensa gelap untuk melindungi mata dari sinar matahari",
+        "sentence": "Dia memakai kacamata hitam saat pergi ke pantai."
+    },
+    {
+        "english": "suit",
+        "indonesia": "setelan jas",
+        "definisi": "pakaian formal yang terdiri dari jas dan celana panjang yang serasi",
+        "sentence": "Dia mengenakan setelan jas untuk wawancara kerja."
+    },
+    {
+        "english": "tie",
+        "indonesia": "dasi",
+        "definisi": "kain panjang yang diikatkan di leher di bawah kerah kemeja",
+        "sentence": "Dia mengenakan dasi biru dengan kemeja putih."
+    },
+    {
+        "english": "blouse",
+        "indonesia": "blus",
+        "definisi": "pakaian atas wanita yang mirip dengan kemeja",
+        "sentence": "Dia mengenakan blus sutra ke acara resmi."
+    }
+]

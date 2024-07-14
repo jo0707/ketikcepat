@@ -13,6 +13,7 @@ export const useTypingStore = defineStore("typing", () => {
     const isTraining = ref(false)
     const currentLetterIndex = ref(0)
     const currentWordIndex = ref(0)
+    const currentLevel = ref(1)
     const currentWord = computed(() => wordPairs.value[currentWordIndex.value])
     const currentSpeech = useSpeechSynthesis(() => currentWord.value.english, {
         rate: 1,
@@ -39,6 +40,12 @@ export const useTypingStore = defineStore("typing", () => {
         isTraining.value = level === "learn"
         let wordsUrl = level === "learn" ? "/words/learn_1.json" : `/words/english_indonesia_${level}.json`
 
+        try {
+            currentLevel.value = parseInt(`${level}`)
+        } catch {
+            currentLevel.value = 0
+        }
+
         const response = await fetch(wordsUrl)
         wordPairs.value = await response.json()
     }
@@ -48,6 +55,7 @@ export const useTypingStore = defineStore("typing", () => {
         currentLetterIndex,
         currentWordIndex,
         currentWord,
+        currentLevel,
         fetchWords,
         reset,
         currentSpeech,

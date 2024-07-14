@@ -6,8 +6,8 @@
         </div>
 
         <main class="grow flex place-items-center place-content-center">
-          <span v-for="letter, i in currentWord.english"
-            :class="{ 'text-teal-300': currentLetterIndex > i, 'text-red-400': isWrong && currentLetterIndex == i, 'text-gray-200': currentLetterIndex <= i, 'font-mono text-4xl': true }">{{
+          <span v-for="letter, i in currentWord.english" class="font-['Roboto_Mono']"
+            :class="{ 'text-teal-300': currentLetterIndex > i, 'text-red-400': isWrong && currentLetterIndex == i, 'text-gray-200': currentLetterIndex <= i, 'text-4xl': true }">{{
       letter
     }}</span>
           <UButton class="ml-2" icon="i-heroicons-speaker-wave"
@@ -68,22 +68,12 @@
             </UButton>
           </div>
         </div>
+
+        <TypingResultModal v-model:isCompleteOpen="isCompleteOpen" />
       </div>
     </UCard>
 
-    <UModal v-model="isCompleteOpen">
-      <UCard class=" bg-gradient-to-br from-teal-300 to-teal-500 backdrop-blur text-center text-sm">
-        <div class="flex flex-col gap-2">
-          <h1 class="text-xl mb-4">Kamu Berhasil!</h1>
-          <p>Waktu: {{ elapsedTimeText }}</p>
-          <p>Kata per-Menit: {{ wpm }}</p>
-          <p>Akurasi: {{ accuracy }}%</p>
-          <p>Karakter: {{ totalStroke }}</p>
-          <p>Kata: {{ totalWord }}</p>
-          <p class="mt-4">Selamat karena telah menyelesaikan level ini! Kamu bisa lanjut ke level berikutnya...</p>
-        </div>
-      </UCard>
-    </UModal>
+
   </div>
 </template>
 
@@ -115,6 +105,7 @@ const {
   currentLetterIndex,
   currentWordIndex,
   currentWord,
+  currentLevel
 } = storeToRefs(typingStore)
 
 const {
@@ -130,14 +121,22 @@ const {
 
 const isCompleteOpen = ref(false)
 
-onMounted(async () => {
-  jsConfetti = new JSConfetti()
+async function fetchWords() {
   await typingStore.fetchWords(level)
   wpmStore.reset()
+}
+
+watch(currentLevel, () => {
+  fetchWords()
+})
+
+onMounted(async () => {
+  jsConfetti = new JSConfetti()
+  fetchWords()
 })
 
 onKeyStroke(true, (e) => {
-  if (!currentWord.value) return
+  if (!currentWord.value || isCompleteOpen.value) return
   if (!e.key.match(/[a-zA-Z]/) && e.key !== "Backspace") return
 
   if (e.key === "Backspace") {
@@ -168,6 +167,7 @@ onKeyStroke(true, (e) => {
     } else {
       currentWordIndex.value++
     }
+
     wpmStore.onWordComplete()
     playDing()
   }

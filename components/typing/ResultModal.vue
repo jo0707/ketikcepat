@@ -18,15 +18,15 @@
           </div>
           <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="flex flex-col items-center">
             <span>Akurasi</span>
-            <UIcon name="i-heroicons-receipt-percent-solid" class="text-4xl from-violet-400 to-violet-600" />
+            <UIcon name="i-heroicons-receipt-percent-solid"
+              class="text-4xl bg-gradient-to-b from-violet-400 to-violet-600" />
             <span>{{ accuracy }} %</span>
           </div>
         </div>
 
-        <p class="mt-4">Selamat! kamu karena telah menyelesaikan level ini</p>
-        <UButton :label="`Lanjut ke level ${currentLevel + 1}`"
-          :to="`/typing/${currentLevel + 1}`" icon="i-heroicons-chevron-right" trailing color="white"
-          size="sm" class="mx-auto max-w-lg" />
+        <p class="mt-4">Selamat! kamu telah menyelesaikan level ini...</p>
+        <UButton :label="`Lanjut ke level ${currentLevel + 1}`" :to="`/typing/${currentLevel + 1}`"
+          icon="i-heroicons-chevron-right" trailing color="white" size="sm" class="mx-auto max-w-lg" />
       </div>
     </UCard>
   </UModal>
@@ -41,11 +41,6 @@ const typingStore = useTypingStore();
 const isCompleteOpen = defineModel('isCompleteOpen', { type: Boolean, default: false });
 
 const {
-  totalStroke,
-  totalWrongStroke,
-  totalCorrectStroke,
-  totalWord,
-  elapsedTime,
   elapsedTimeText,
   wpm,
   accuracy,

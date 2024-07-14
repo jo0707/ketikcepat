@@ -1,8 +1,8 @@
 <template>
   <div data-aos="fade-in" class="h-full p-4 text-center">
-    <UCard class="h-full bg-black/20 backdrop-blur-sm">
+    <UCard class="h-full bg-black/20 backdrop-blur-sm grid place-content-center">
       <h2 class="text-white text-2xl font-bold">Pilih Tingkatan</h2>
-      <ul class="mt-4 flex flex-col gap-8 place-content-center place-items-center">
+      <ul class="mt-16 flex flex-col gap-8 place-content-center place-items-center">
         <li v-for="level in levels">
           <h3 class="text-white font-bold">{{ level.difficulty }}</h3>
           <p class="text-white text-sm">{{ level.description }}</p>

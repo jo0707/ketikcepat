@@ -12,6 +12,7 @@ export default defineNuxtConfig({
         "@nuxt/fonts",
         "@nuxt/image",
         "@nuxtjs/mdc",
+        "vue3-carousel-nuxt"
     ],
     app: {
         head: {

@@ -28,11 +28,11 @@
             </UButton>
           </div>
 
-          <UCard class="w-fit mx-auto bg-white/75 backdrop-blur">
-            <div class="flex flex-col gap-2">
+          <UCard class="w-fit mx-auto bg-white/30 backdrop-blur">
+            <div class="flex flex-col gap-2 text-gray-100">
               <div>
-                <p class="text-xs text-gray-500">Tahap</p>
-                <p class="text-gray-600 font-bold font-mono ">{{ currentWordIndex + 1 }} / {{ wordPairs.length }}</p>
+                <p class="text-xs ">Tahap</p>
+                <p class=" font-bold font-mono ">{{ currentWordIndex + 1 }} / {{ wordPairs.length }}</p>
               </div>
 
               <Keyboard class="max-sm:hidden" />

@@ -1,6 +1,6 @@
 <template>
   <div class="w-full flex flex-col gap-2">
-    <Carousel id="gallery" :items-to-show="1" :wrap-around="false" v-model="currentSlide">
+    <Carousel id="gallery" :items-to-show="1" :wrap-around="false" v-model="currentSlide" :autoplay="3000">
       <Slide class="h-56 w-full rounded overflow-hidden bg-white/90" v-for="ar, i in articles">
         <div class="w-full grid grid-rows-2">
           <NuxtImg class="w-full object-cover" :src="`/img/${ar.mdfile}.png`" />

@@ -1,5 +1,6 @@
 <template>
-  <div data-aos="fade-in" class="w-full h-full bg-[url('/img/background_3.svg')] bg-cover bg-right p-4 text-white overflow-y-scroll">
+  <div data-aos="fade-in"
+    class="w-full h-full bg-[url('/img/background_3.svg')] bg-cover bg-right p-4 text-white overflow-y-scroll">
     <UCard class="bg-black/20 backdrop-blur-sm w-full h-full">
       <h2 class="text-lg font-bold">Belajar dari Artikel & Video</h2>
       <p class="text-sm">Perluas wawasan mengenai latihan ketik, IT, dan bahasa Inggris yuk!</p>
@@ -11,13 +12,10 @@
         </div>
         <div>
           <h3 class="text-lg">Video</h3>
-          <InfoArticleGallery />
+          <InfoVideoeGallery />
         </div>
       </div>
 
-      <footer class="absolute bottom-0 left-0 w-full bg-black/10 text-xs p-1 italic text-white/75">
-        <p>Web KetikCepat ini dibuat oleh Joshua Palti Sinaga &copy; {{ new Date().getFullYear() }}</p>
-      </footer>
     </UCard>
   </div>
 </template>

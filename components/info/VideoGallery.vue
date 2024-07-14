@@ -1,6 +1,6 @@
 <template>
   <div class="w-full flex flex-col gap-2">
-    <Carousel id="gallery" :items-to-show="1" :wrap-around="false" v-model="currentSlide">
+    <Carousel id="gallery" :items-to-show="1" :wrap-around="false" v-model="currentSlide" :autoplay="3000">
       <Slide class="h-56 w-full rounded overflow-hidden bg-white/90" v-for="vid, i in videos">
         <div class="w-full grid grid-rows-2">
           <iframe :src="vid.embed" alt="background" class="w-full object-cover" title="YouTube video player"
@@ -12,8 +12,8 @@
               class="line-clamp-3 text-ellipsis" />
             <UButton :padded="false" :to="vid.url" variant="link" color="red" class="text-xs"
               icon="i-heroicons-user-circle-solid">{{
-              vid.author
-              }}</UButton>
+      vid.author
+    }}</UButton>
           </div>
         </div>
       </Slide>
@@ -31,8 +31,8 @@
               class="line-clamp-3 text-ellipsis" />
             <UButton :padded="false" :to="vid.url" variant="link" color="red" class="text-xs"
               icon="i-heroicons-user-circle-solid">{{
-              vid.author
-              }}</UButton>
+      vid.author
+    }}</UButton>
           </div>
         </div>
       </Slide>

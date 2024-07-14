@@ -23,8 +23,8 @@
         <slot />
       </main>
 
-      <footer>
-
+      <footer class="absolute bottom-0 left-0 text-center w-full bg-black/5 text-[10px] italic text-white/60">
+        <p>Web KetikCepat ini dibuat oleh <a href="https://jooo.my.id/" target="_blank" class="underline">Jo0707</a> &copy; {{ new Date().getFullYear() }}</p>
       </footer>
     </div>
   </div>

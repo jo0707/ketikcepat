@@ -1,75 +1,86 @@
-# Nuxt 3 Minimal Starter
+<h1 align="center">Ketik Cepat!</h1>
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+<p align="center">
+  <img src="screenshots/banner.webp"/>
+</p>
 
-## Setup
+<p align="center">
+    Ketik Cepat! adalah sebuah website untuk latihan mengetik dalam bahasa Inggris dan Indonesia yang bertujuan melatih anak bangsa dalam menggunakan komputer sembari belajar bahasa Inggris. 
+</p>
 
-Make sure to install the dependencies:
+## App
+
+Demo: [KetikCepat!](https://ketikcepat.jooo.my.id/)
+
+<p align="center" style="width:75%">
+  <img src="screenshots/1.webp"/>
+  <img src="screenshots/2.webp"/>
+  <img src="screenshots/3.webp"/>
+</p>
+
+## Library, Frameworks & Tools yang Digunakan
+
+-   [Nuxt 3](https://nuxt.com/)
+    -   [Nuxt UI](https://ui.nuxt.com/)
+    -   [Nuxt SEO](https://nuxtseo.com/)
+    -   [Nuxt VueUse](https://vueuse.org/)
+    -   [Nuxt Fonts](https://fonts.nuxt.com/)
+    -   [Nuxt Image](https://image.nuxt.com/)
+    -   [Nuxt Pinia](https://pinia.vuejs.org/ssr/nuxt.html)
+    -   [Nuxt mdc](https://github.com/nuxt-modules/mdc)
+    -   [Vue3 Carousel Nuxt](https://nuxt.com/modules/vue3-carousel-nuxt)
+-   [TailwindCSS](https://tailwindcss.com/)
+-   [Animate On Scroll](https://michalsnik.github.io/aos/)
+-   [js-confetti](https://github.com/loonywizard/js-confetti)
+-   [Howler.js](https://howlerjs.com/)
+-   [Bun](https://bun.sh/)
+
+## Setup & Build
+
+Jika kamu ingin menjalankan project ini di local, ikuti langkah-langkah berikut:
+
+-   Clone project ini
 
 ```bash
-# npm
-npm install
+git clone https://github.com/jo0707/ketikcepat
+```
 
-# pnpm
-pnpm install
+-   Pindah direktori ke direktori project
 
-# yarn
-yarn install
+```bash
+cd ketikcepat
+```
 
-# bun
+-   Install dependencies (bun)
+
+```bash
 bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+-   Jalankan project
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+bun dev
 ```
 
-## Production
-
-Build the application for production:
+-   Build project
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
 bun run build
+#or
+bun run generate # static hosting
 ```
 
-Locally preview production build:
+Selesai!
 
-```bash
-# npm
-npm run preview
+## Kredit
 
-# pnpm
-pnpm run preview
+<p align="center">
+Repository ini terinspirasi dari website <a href="https://github.com/RealKai42/qwerty-learner">Qwerty Learner</a> dan <a href="https://github.com/diosamuel/suaratangan">Suara Tangan - @diosamuel</a>
+</p>
 
-# yarn
-yarn preview
+## Contributing
 
-# bun
-bun run preview
-```
+Made by [jo0707](https://github.com/jo0707)
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Feel free to contribute to this repository!

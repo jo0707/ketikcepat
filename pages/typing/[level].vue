@@ -124,6 +124,9 @@ const isCompleteOpen = ref(false)
 async function fetchWords() {
   await typingStore.fetchWords(level)
   wpmStore.reset()
+  setTimeout(() => {
+    typingStore.currentSpeech.speak()
+  }, 100);
 }
 
 watch(currentLevel, () => {

@@ -19,7 +19,7 @@
 
       </header>
 
-      <main class="w-full h-full rounded p-2">
+      <main class="w-full h-full rounded max-md:p-2">
         <slot />
       </main>
 

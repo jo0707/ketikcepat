@@ -20,7 +20,7 @@
     </Carousel>
 
     <Carousel id="thumbnails" :items-to-show="2.5" :wrap-around="true" v-model="currentSlide" ref="carousel">
-      <Slide class="w-full  h-32 px-1" v-for="vid, i in videos" @click="slideTo(i - 1)">
+      <Slide class="w-full h-32 px-1" v-for="vid, i in videos" @click="slideTo(i - 1)">
         <div class="w-full rounded overflow-hidden grid grid-rows-2 bg-white/90 ">
           <iframe :src="vid.embed" alt="background" class="w-full object-cover" title="YouTube video player"
             frameborder="0"

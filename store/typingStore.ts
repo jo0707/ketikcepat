@@ -24,7 +24,7 @@ export const useTypingStore = defineStore("typing", () => {
     watch(currentWordIndex, () => {
         currentLetterIndex.value = 0
 
-        if (currentWordIndex.value > 0 && !isTraining.value) {
+        if (currentWordIndex.value >= 0 && !isTraining.value) {
             currentSpeech.speak()
         }
     })

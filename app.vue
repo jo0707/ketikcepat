@@ -4,11 +4,27 @@
       <NuxtPage />
     </NuxtLayout>
 
+    <UModal v-model="isMobileWarningOpen">
+      <UCard>
+        <h2 class="text-lg">Perhatian</h2>
+        <p class="text-sm">Website ini tidak mendukung tampilan mobile. Silakan gunakan perangkat dengan layar lebih
+          lebar.</p>
+      </UCard>
+    </UModal>
+
     <UNotifications />
   </div>
 </template>
 
 <script lang="ts" setup>
+const isMobileWarningOpen = ref(false)
+
+onMounted(() => {
+  if (window.innerWidth < 768) {
+    isMobileWarningOpen.value = true
+  }
+})
+
 useHead({
   meta: [
     {
